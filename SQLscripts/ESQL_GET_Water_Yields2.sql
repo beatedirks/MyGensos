@@ -1,0 +1,1 @@
+﻿SELECT "WS_LU_FutureFlow_Yields".capacity, "WS_LU_FutureFlow_Yields".yield FROM "ISL_ModelRuns" INNER JOIN "WS_LU_FutureFlow_Yields" ON "ISL_ModelRuns".climate_id = "WS_LU_FutureFlow_Yields".climate_id WHERE (("WS_LU_FutureFlow_Yields".year)=2030) AND "ISL_ModelRuns".modelrun_id =  AND "WS_LU_FutureFlow_Yields".wrz_id =  AND "WS_LU_FutureFlow_Yields".capacity = 
